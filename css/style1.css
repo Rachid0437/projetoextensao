@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    background-color: rgb(98, 207, 135);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.imagem-logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.menu li {
+
+    display: inline-block;
+    margin: 0 20px;
+
+
+}
+.menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(10, 1, 1);
+    padding: 10px 15px;
+
+}
+
+.menu li a:hover{
+    background-color:rgba(3, 36, 14, 0.432);
+    border-radius: 10px;
+}
+    
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 02px rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+display: none;
+background-color: azure;
+border-radius: 10px;
+}
+
+.dropdown-menu a {
+display: block;
+color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+body{
+    background-image: url(../img/backgroundimage.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.texto{
+    text-align: center;
+    position: relative; 
+    color: aliceblue;   
+    background-color: rgb(50, 175, 92);
+    height: 150px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+ .p1{
+    font-size: 30px;
+
+ }
